@@ -1,0 +1,29 @@
+{
+  "name": "namaste-react",
+  "version": "1.0.0",
+  "description": "\"Trying my hands on React\"",
+  "homepage": "https://github.com/Prasad-Dhole/Namaste-React#readme",
+  "bugs": {
+    "url": "https://github.com/Prasad-Dhole/Namaste-React/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Prasad-Dhole/Namaste-React.git"
+  },
+  "license": "ISC",
+  "author": "Prasad Dhole",
+  "type": "commonjs",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "parcel": "^2.15.4"
+  },
+  "dependencies": {
+    "lite-server": "^2.6.1",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  }
+}
